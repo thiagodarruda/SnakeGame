@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 0px 0px;
+    padding: 20px;
+    background-color:antiquewhite;
+}
+
+div.container{  
+    width: 800px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+canvas{
+    border: 3px solid;
+    border-radius: 5px;
+}
